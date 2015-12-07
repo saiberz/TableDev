@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 
-export default class TableDev extends React.Component {
+class TableDev extends React.Component {
 
   static propTypes = {
     title: React.PropTypes.string
@@ -24,3 +24,4 @@ export default class TableDev extends React.Component {
   }
 }
 
+export default TableDev;
