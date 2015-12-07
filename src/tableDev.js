@@ -17,7 +17,7 @@ class TableDev extends React.Component {
   render() {
     return (
       <div>
-          Titulo:
+          Title:
           {this.props.title}
       </div>
     );
